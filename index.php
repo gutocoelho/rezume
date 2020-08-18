@@ -31,7 +31,7 @@
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Experiências</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-resume">Quem eu sigo</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-resume">Profissionais/a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-about">Sobre</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-contact">Contato</a></li>
 				</ul>
