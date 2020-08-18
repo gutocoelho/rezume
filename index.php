@@ -145,7 +145,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="section-heading text-center col-md-12">
-					<h2>Featured <strong>Portfolio</strong></h2>
+					<h2>Profissionais <strong>que eu sigo</strong></h2>
 				</div>
 			</div>
 			<div class="filters">
