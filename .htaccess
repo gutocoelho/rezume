@@ -1,3 +1,4 @@
+DirectoryIndex first.html index.htm index.html index.php
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^/?(.*) https://augusto.mygeekbox.com.br/$1 [R,L]
