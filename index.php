@@ -116,7 +116,7 @@
 
 					<div class="resume-item mb-4">
 						<span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-						<h3>Supervidor de Mídias Digitais</h3>
+						<h3>Supervisor de Mídias Digitais</h3>
 						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
 						<span class="school">Facebook</span>
 					</div>
