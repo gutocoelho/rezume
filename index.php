@@ -160,7 +160,7 @@
 
 			<div class="filters-content">
 				<div class="row grid">
-					<div class="single-portfolio col-sm-4 all mockup">
+					<div class="single-portfolio col-sm-4 all typography">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
@@ -173,8 +173,8 @@
 							</a>                                  
 						</div>
 						<div class="p-inner">
-							<h4>Square Box Mockup</h4>
-							<div class="cat">Mockup</div>
+							<h4>Fábio Ricotta</h4>
+							<div class="cat">Businnes</div>
 						</div>                                         
 					</div>
 					<div class="single-portfolio col-sm-4 all mockup">
@@ -190,8 +190,8 @@
 							</a>                                  
 						</div>
 						<div class="p-inner">
-							<h4>Product Box Package Mockup</h4>
-							<div class="cat">Mockup</div>
+							<h4>Martin Cagan</h4>
+							<div class="cat">Product Management</div>
 						</div>                                         
 					</div>                            
 					<div class="single-portfolio col-sm-4 all packaging">
@@ -208,8 +208,8 @@
 
 						</div>
 						<div class="p-inner">
-							<h4>Creative Package Design</h4>
-							<div class="cat">Packaging</div>
+							<h4>Erico Fileno</h4>
+							<div class="cat">Design</div>
 						</div>
 					</div>
 					<div class="single-portfolio col-sm-4 all packaging">
