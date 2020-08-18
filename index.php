@@ -31,8 +31,8 @@
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Experiências</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-resume">Quem eu sigo</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-resume">Profissionais</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-about">Sobre</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-contact">Contato</a></li>
 				</ul>
 			</div>
@@ -116,7 +116,7 @@
 
 					<div class="resume-item mb-4">
 						<span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-						<h3>Supervidor de Mídias Digitais</h3>
+						<h3>Supervisor de Mídias Digitais</h3>
 						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
 						<span class="school">Facebook</span>
 					</div>
@@ -145,7 +145,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="section-heading text-center col-md-12">
-					<h2>Featured <strong>Portfolio</strong></h2>
+					<h2>Profissionais <strong>que eu sigo</strong></h2>
 				</div>
 			</div>
 			<div class="filters">
@@ -160,11 +160,11 @@
 
 			<div class="filters-content">
 				<div class="row grid">
-					<div class="single-portfolio col-sm-4 all mockup">
+					<div class="single-portfolio col-sm-4 all typography">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p1.jpg" alt="">
+								<a href="https://br.linkedin.com/in/fabioricotta"><img class="image img-fluid" src="images/p1.jpg" alt=""></a>
 							</div>
 							<a href="images/p1.jpg" class="img-pop-up">  
 								<div class="middle">
@@ -173,8 +173,8 @@
 							</a>                                  
 						</div>
 						<div class="p-inner">
-							<h4>Square Box Mockup</h4>
-							<div class="cat">Mockup</div>
+							<h4>Fábio Ricotta</h4>
+							<div class="cat">Businnes</div>
 						</div>                                         
 					</div>
 					<div class="single-portfolio col-sm-4 all mockup">
@@ -190,8 +190,8 @@
 							</a>                                  
 						</div>
 						<div class="p-inner">
-							<h4>Product Box Package Mockup</h4>
-							<div class="cat">Mockup</div>
+							<h4>Martin Cagan</h4>
+							<div class="cat">Product Management</div>
 						</div>                                         
 					</div>                            
 					<div class="single-portfolio col-sm-4 all packaging">
@@ -208,8 +208,8 @@
 
 						</div>
 						<div class="p-inner">
-							<h4>Creative Package Design</h4>
-							<div class="cat">Packaging</div>
+							<h4>Erico Fileno</h4>
+							<div class="cat">Design</div>
 						</div>
 					</div>
 					<div class="single-portfolio col-sm-4 all packaging">
