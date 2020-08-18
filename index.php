@@ -164,7 +164,7 @@
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<a><img class="image img-fluid" src="images/p1.jpg" alt=""></a>
+								<a href="https://br.linkedin.com/in/fabioricotta"><img class="image img-fluid" src="images/p1.jpg" alt=""></a>
 							</div>
 							<a href="images/p1.jpg" class="img-pop-up">  
 								<div class="middle">
