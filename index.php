@@ -74,22 +74,22 @@
 				<div class="col-md-6">
 					<h2 class="mb-5">Education</h2>
 					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-						<h3>Masteral in Information Technology</h3>
+						<span class="date"><span class="icon-calendar"></span> Março 2020 - Atual</span>
+						<h3>Pós Graduação em Gestão Empresarial</h3>
 						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
 						<span class="school">New York University</span>
 					</div>
 
 					<div class="resume-item mb-4">
 						<span class="date"><span class="icon-calendar"></span> March 2013 - Present Deacember.</span>
-						<h3>Masteral in Information Technology</h3>
+						<h3>Pós Graduação em Marketing em Mídias Digitais</h3>
 						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
 						<span class="school">New York University</span>
 					</div>
 
 					<div class="resume-item mb-4">
 						<span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-						<h3>Masteral in Information Technology</h3>
+						<h3>Bacharelado em Design Gráfico</h3>
 						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
 						<span class="school">New York University</span>
 					</div>
@@ -111,7 +111,7 @@
 						<span class="date"><span class="icon-calendar"></span> March 2020 - Atual</span>
 						<h3>Coordenador de Design e Tecnologia</h3>
 						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-						<span class="school">Github</span>
+						<span class="school">Advance Comunicação</span>
 					</div>
 
 					<div class="resume-item mb-4">
@@ -151,9 +151,9 @@
 			<div class="filters">
 				<ul>
 					<li class="active" data-filter="*">All</li>
-					<li data-filter=".packaging">Packaging</li>
-					<li data-filter=".mockup">Mockup</li>
-					<li data-filter=".typography">Typography</li>
+					<li data-filter=".packaging">Design</li>
+					<li data-filter=".mockup">Product Manager</li>
+					<li data-filter=".typography">Business</li>
 					<li data-filter=".photography">Photography</li>
 				</ul>
 			</div>
