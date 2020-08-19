@@ -84,7 +84,7 @@
 				<div class="col-md-6">
 					<h2 class="mb-5">Educação</h2>
 					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span>2017 - 2019</span>
+						<span class="date"><span class="icon-calendar"></span> 2018 - 2020</span>
 						<h3>Pós Graduação em Gestão Empresarial</h3>
 						<p>Gestão empresarial, Adminstração, Negócios e Marketing.</p>
 						<span class="school">FGV - Fundação Getúlio Vargas</span>
@@ -329,11 +329,11 @@
 						<h2>Sobre <strong>Mim</strong></h2>
 					</div>
 					<p class="lead">Atuo na Gestão de produtos e mídias digitais desde 2005. Sou graduado em Design, com MBA em Marketing e Comunicação Digital, MBA em Gestão Empresarial pela FGV e curso de Digital Product Leadership pela TERA.</p>
-					<p class="mb-5  ">Minha carreira profissional está relacionada com as transformações do mundo cada vez mais digital. Experiência de atuação na área de Marketing, Comunicação e Tecnologia, exercendo funções de web designer, analista, supervisor, coordenador e gerente, atuando diretamente com as soluções digitais com foco em resultado, sucesso e satisfação dos stakeholders.</p>
+					<p class="mb-5  ">Minha carreira profissional está relacionada com as transformações do mundo cada vez mais digital. Experiência de atuação na área de Marketing, Comunicação e Tecnologia, exercendo funções de estagiário, web designer, analista, supervisor(product owner), coordenador e gerente, atuando diretamente com as soluções digitais com foco em resultado, sucesso e satisfação dos stakeholders. Atuei também como professor palestrante em algumas instituições de ensino em Fortaleza, ao qual fui convidado como: Estácio, Darcy Riberio, CDL, FAC e Fametro.</p>
 
 					<p>
-						<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
-						<a href="#" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
+						<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Entre em contato</a>
+						<a href="cv/cv-augusto-coelho-product-owner-2020.pdf" title="Arquivo do Currículo" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
 					</p>
 				</div>
 			</div>
