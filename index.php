@@ -561,16 +561,16 @@
 				<form action="enviar.php" name="form_contato" method="post" class="site-form">
 						<h3 class="mb-5">Formulário</h3>
 						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" placeholder="Seu Nome">
+							<input id="nome" type="text" class="form-control px-3 py-4" placeholder="Seu Nome">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Seu Email">
+							<input id="email" type="email" class="form-control px-3 py-4" placeholder="Seu Email">
 						</div>
 						<div class="form-group">
-							<input type="tel" class="form-control px-3 py-4" placeholder="Seu Telefone">
+							<input id="telefone" type="tel" class="form-control px-3 py-4" placeholder="Seu Telefone">
 						</div>
 						<div class="form-group mb-5">
-							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+							<textarea id="msg" class="form-control px-3 py-4"cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
 						</div>
 						<div class="form-group">
 							<input type="submit" class="btn btn-primary  px-4 py-3" value="Enviar Mensagem">
