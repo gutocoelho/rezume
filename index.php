@@ -19,8 +19,8 @@
 	<meta property="og:type" content="website" />	
 	<meta property="og:title" content="Augusto Coelho"/>
 	<meta property="og:image" content="https://augusto.mygeekbox.com.br/images/augusto_coelho_share.jpg"/>
-	<meta property="og:image:width" content="1900" />
-	<meta property="og:image:height" content="1296" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="627" />
 	<meta property="og:description" content="Designer, Especialista em Gestão de Produtos e Mídias Digitais - Saiba Mais"/>
 	<meta property="og:url" content="https://augusto.mygeekbox.com.br"/>
 	<link rel="stylesheet" href="css/animate.css">
