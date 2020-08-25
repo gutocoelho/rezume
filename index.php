@@ -40,9 +40,9 @@
 			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Profissionais</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-resume">Experiências</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-about">Sobre</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-resume">Experiências</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Inspirações</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-contact">Contato</a></li>
 				</ul>
 			</div>
@@ -177,7 +177,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="section-heading text-center col-md-12">
-					<h2>Profissionais <strong>que eu sigo</strong></h2>
+					<h2>Inspirações <strong>profissionais que eu sigo</strong></h2>
 				</div>
 			</div>
 			<div class="filters">
@@ -196,7 +196,7 @@
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<a href="https://br.linkedin.com/in/fabioricotta"><img class="image img-fluid" src="images/p1.jpg" alt=""></a>
+								<a href="https://br.linkedin.com/in/fabioricotta" title="Fabio Ricotta"><img class="image img-fluid" src="images/profissionais/fabioricotta.jpg" alt="Fábio Ricotta"></a>
 							</div>
 							<a href="images/p1.jpg" class="img-pop-up">  
 								<div class="middle">
@@ -213,7 +213,9 @@
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p2.jpg" alt="">
+								<a href="https://www.linkedin.com/in/cagan/" title="Marty Cagan">
+								<img class="image img-fluid" src="images/profissionais/martycagan.jpg" alt="Marty Cagan">
+								</a>
 							</div>
 							<a href="images/p2.jpg" class="img-pop-up">  
 								<div class="middle">
@@ -222,7 +224,7 @@
 							</a>                                  
 						</div>
 						<div class="p-inner">
-							<h4>Martin Cagan</h4>
+							<h4>Marty Cagan</h4>
 							<div class="cat">Product Management</div>
 						</div>                                         
 					</div>                            
@@ -230,7 +232,9 @@
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p3.jpg" alt="">
+								<a href="https://www.ericofileno.com/" title="Érico Fileno">
+								<img class="image img-fluid" src="images/profissionais/ericofileno.jpg" alt="Érico Fileno">
+								</a>
 							</div>
 							<a href="images/p3.jpg" class="img-pop-up">  
 								<div class="middle">
@@ -243,12 +247,36 @@
 							<h4>Erico Fileno</h4>
 							<div class="cat">Design</div>
 						</div>
+
+						
+					</div>
+					<div class="single-portfolio col-sm-4 all packaging">
+					<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<a href="https://www.linkedin.com/in/donnorman/" title="Donald Norman">
+								<img class="image img-fluid" src="images/profissionais/donaldnorman.jpg" alt="Donald Norman">
+								</a>
+							</div>
+							<a href="images/p3.jpg" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a> 
+
+						</div>
+						<div class="p-inner">
+							<h4>Donald Norman</h4>
+							<div class="cat">Design</div>
+						</div>						
 					</div>
 					<div class="single-portfolio col-sm-4 all packaging">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p4.jpg" alt="">
+								<a href="https://www.linkedin.com/in/priscillaalbuquerque/" title="Priscila Albuquerque">
+								<img class="image img-fluid" src="images/profissionais/priscilaalbuquerque.jpg" alt="Priscila Albuquerque">
+								</a>
 							</div>
 							<a href="images/p4.jpg" class="img-pop-up">  
 								<div class="middle">
@@ -261,16 +289,38 @@
 							<div class="cat">Design</div>
 						</div>
 					</div>
+					<div class="single-portfolio col-sm-4 all typography">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<a href="https://www.martha.com.br/biografia/" title="Martha Gabriel">
+								<img class="image img-fluid" src="images/profissionais/marthagabriel.jpg" alt="Martha Gabriel"></a>
+							</div>
+							<a href="images/p1.jpg" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                  
+						</div>
+						<div class="p-inner">
+							<h4>Martha Gabriel</h4>
+							<div class="cat">Business</div>
+						</div>                                         
+					</div>
 					<div class="single-portfolio col-sm-4 all photography">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p5.jpg" alt="">
+								<a href="https://murilogun.com.br/" title="Murilo Gun"> 
+								<img class="image img-fluid" src="images/profissionais/murilogun.jpg" alt="Murilo Gun">
+								</a>
 							</div>
-							<a href="images/p5.jpg" class="img-pop-up">  
+							<a href="images/p5.jpg" class="img-pop-up"> 
+								
 								<div class="middle">
 									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
 								</div>
+								
 							</a>                                
 						</div>
 						<div class="p-inner">
@@ -282,7 +332,9 @@
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p5.jpg" alt="">
+								<a href="https://www.linkedin.com/in/satyanadella/" title="Satia Nadela">
+								<img class="image img-fluid" src="images/profissionais/satianadela.jpg" alt="satia Nadela">
+								</a>
 							</div>
 							<a href="images/p5.jpg" class="img-pop-up">  
 								<div class="middle">
@@ -299,7 +351,9 @@
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p6.jpg" alt="">
+								<a href="https://www.gustavocaetano.com.br/" title="Gustavo Caetano">
+								<img class="image img-fluid" src="images/profissionais/gustavocaetano.jpg" alt="Gustavo Caetano">
+								</a>
 							</div>
 							<a href="images/p6.jpg" class="img-pop-up">  
 								<div class="middle">
@@ -314,6 +368,7 @@
 					</div>
 				</div>
 			</div>
+			<p style="text-align: center">*fotos disponíveis em www.google.com.br</p>
 		</div>
 	</section>
 	<!-- .section -->
