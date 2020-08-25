@@ -11,9 +11,13 @@
 	gtag('config', 'UA-175784266-1');
 	</script>
 
-	<title>Augusto Coelho - Designer e especialista em Mídias Digitais</title>
+	<title>Augusto Coelho - Designer, Especialista em Gestão de Produtos e Mídias Digitais</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta property='og:title' content='Augusto Coelho'/>
+	<meta property='og:image' content='images/augusto_coelho.jpg'/>
+	<meta property='og:description' content='Designer, Especialista em Gestão de Produtos e Mídias Digitais - Saiba Mais'/>
+	<meta property='og:url' content=http://augusto.mygeekbox.com.br/>
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/flexslider.css">
 	<link rel="stylesheet" href="fonts/icomoon/style.css">
