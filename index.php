@@ -18,7 +18,7 @@
 	<meta property="og:locale" content="pt_BR" />
 	<meta property="og:type" content="website" />	
 	<meta property='og:title' content='Augusto Coelho' />
-	<meta property='og:image' content='images/augusto_coelho.jpg'/>
+	<meta property='og:image' content='http://augusto.mygeekbox.com.br/images/augusto_coelho.jpg'/>
 	<meta property="og:image:width" content="1900" />
 	<meta property="og:image:height" content="1296" />
 	<meta property='og:description' content='Designer, Especialista em Gestão de Produtos e Mídias Digitais - Saiba Mais'/>
