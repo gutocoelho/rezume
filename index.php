@@ -12,10 +12,15 @@
 	</script>
 
 	<title>Augusto Coelho - Designer, Especialista em Gestão de Produtos e Mídias Digitais</title>
+	<meta name="description" content="Atuo na Gestão de produtos e mídias digitais desde 2005. Sou graduado em Design, com MBA em Marketing e Comunicação Digital, MBA em Gestão Empresarial pela FGV e curso de Digital Product Leadership pela TERA."/>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta property='og:title' content='Augusto Coelho'/>
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:type" content="website" />	
+	<meta property='og:title' content='Augusto Coelho' />
 	<meta property='og:image' content='images/augusto_coelho.jpg'/>
+	<meta property="og:image:width" content="1900" />
+	<meta property="og:image:height" content="1296" />
 	<meta property='og:description' content='Designer, Especialista em Gestão de Produtos e Mídias Digitais - Saiba Mais'/>
 	<meta property='og:url' content='http://augusto.mygeekbox.com.br'/>
 	<link rel="stylesheet" href="css/animate.css">
