@@ -11,7 +11,6 @@
 	<!-- End Google Tag Manager -->
 
 	
-
 	<title>Augusto Coelho - Designer, Especialista em Gestão de Produtos e Mídias Digitais</title>
 	<meta name="description" content="Atuo na gestão de produtos e mídias digitais desde 2005. Saiba mais sobre as minhas experiências profissionais e os influenciadores que eu me inspiro."/>
 	<meta charset="utf-8">
