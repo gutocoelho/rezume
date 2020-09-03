@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175784266-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
 
-	gtag('config', 'UA-175784266-1');
-	</script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MDZLSGB');</script>
+	<!-- End Google Tag Manager -->
+
+	
 
 	<title>Augusto Coelho - Designer, Especialista em Gestão de Produtos e Mídias Digitais</title>
 	<meta name="description" content="Atuo na gestão de produtos e mídias digitais desde 2005. Saiba mais sobre as minhas experiências profissionais e os influenciadores que eu me inspiro."/>
@@ -35,7 +36,10 @@
 
 </head>
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDZLSGB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 
 	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
