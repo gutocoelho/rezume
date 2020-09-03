@@ -52,9 +52,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-about">Sobre</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-resume">Experiências</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Inspirações</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-about">Sobre</a></li>					
 					<li class="nav-item"><a class="nav-link" href="#section-contact">Contato</a></li>
 				</ul>
 			</div>
