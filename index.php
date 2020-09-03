@@ -131,7 +131,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 
 					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> 2003 - 2005(Não concluído)</span>
+						<span class="date"><span class="icon-calendar"></span> 2003 - 2005 (Não finalizei pois me apaixonei pelo Design)</span>
 						<h3>Bacharelado em Estatística</h3>
 						<p>O curso de Bacharelado em Estatística da UFC tem por objetivo formar um profissional com conhecimentos das técnicas estatísticas e afins.</p>
 						<span class="school">Universidade Federal do Ceará</span>
