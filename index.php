@@ -160,7 +160,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="resume-item mb-4">
 						<span class="date"><span class="icon-calendar"></span> Dezembro 2012 - Março 2019</span>
 						<h3>Analista/Supervisor de Mídias Digitais</h3>
-						<p>Gestão de todos os produtos e canais digitais da empresa. Tive a oportunidade de iniciar nessa função como Analista júnior(JR), depois ao nível pleno(PL) e posteriormente sênior(SR), aprendendo, evoluindo e entregando resultados para a empresa.</p>
+						<p>Gestão de todos os produtos e canais digitais da empresa. Tive a oportunidade de iniciar nessa função como Analista júnior(JR), depois cheguei ao nível pleno(PL) e posteriormente sênior(SR), aprendendo, evoluindo e entregando resultados para a empresa.</p>
 						<span class="school">Unimed Fortaleza</span>
 					</div>
 
