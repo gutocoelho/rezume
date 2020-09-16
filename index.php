@@ -41,6 +41,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 
+
+
 	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
 
 		<div class="container">
@@ -625,6 +627,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	-->
 
+	<?php
+		$name = $_POST['nome'];
+		//pega os dados que foi digitado no ID name.
+
+		$email = $_POST['email'];
+		//pega os dados que foi digitado no ID email.
+
+		$subject = $_POST['msg'];
+		//pega os dados que foi digitado no ID sebject.
+
+		$message = $_POST['message'];
+		//pega os dados que foi digitado no ID message.
+		$myEmail = "contato@mygeekbox.com.br";//é necessário informar um e-mail do próprio domínio
+		$headers = "From: $myEmail\r\n";
+		$headers .= "Reply-To: $email\r\n";
+
+		/*abaixo contém os dados que serão enviados para o email
+		cadastrado para receber o formulário*/
+
+		$corpo = "Formulário enviado\n";
+		$corpo .= "Nome: " . $name . "\n";
+		$corpo .= "Email: " . $email . "\n";
+		$corpo .= "Comentários: " . $message . "\n";
+
+		$email_to = 'augustoufc@hotmail.com';
+		//não esqueça de substituir este email pelo seu.
+
+		$status = mail($email_to, $subject, $corpo, $headers);
+		//enviando o email.
+
+		if ($status) {
+		echo "<script> alert('Formulário enviado com sucesso!'); </script>";
+		
+		//mensagem de form enviado com sucesso.
+
+		} else {
+		echo "<script> alert('Falha ao enviar o Formulário.'); </script>";
+		
+		//mensagem de erro no envio. 
+
+		}
+	?>
+
 	<section class="site-section" id="section-contact">
 		<div class="container">
 			<div class="row">
@@ -635,7 +680,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 
 				<div class="col-md-7 mb-5 mb-md-0">
-				<form action="enviar.php" name="form_contato" method="post" class="site-form">
+				<form action="index.php" name="form_contato" method="post" class="site-form">
 						<h3 class="mb-5">Formulário</h3>
 						<div class="form-group">
 							<input id="nome" type="text" class="form-control px-3 py-4" placeholder="Seu Nome">
