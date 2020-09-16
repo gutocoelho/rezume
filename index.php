@@ -41,8 +41,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 
-
-
 	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
 
 		<div class="container">
@@ -627,61 +625,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	-->
 
-	<?php
-//Import the PHPMailer class into the global namespace
-require("PHPMailer/PHPMailer.php");
-require("PHPMailer/SMTP.php");
-require("PHPMailer/Exception.php");
-
-$mail = new PHPMailer();
-
-// Define que a mensagem será SMTP
-$mail->IsSMTP();
-
-// Host do servidor SMTP externo, como o SendGrid.
-$mail->Host = "smtp.umbler.com";
-
-// Autenticação | True
-$mail->SMTPAuth = true;
-
-// Usuário do servidor SMTP
-$mail->Username = 'contato@mygeekbox.com.br';
-
-// Senha da caixa postal utilizada
-$mail->Password = 'webnit26@A';
-
-$mail->From = "contato@mygeekbox.com.br";
-$mail->FromName = "Augusto Coelho ";
-$mail->AddAddress('contato@mygeekbox.com.br', 'Nome do Destinatário');
-
-// Define que o e-mail será enviado como HTML | True
-$mail->IsHTML(true);
-
-// Charset da mensagem (opcional)
-$mail->CharSet = 'iso-8859-1';
-
-// Assunto da mensagem
-$mail->Subject = "Mensagem Teste";
-
-// Conteúdo no corpo da mensagem
-$mail->Body = 'Conteudo da mensagem';
-
-// Conteúdo no corpo da mensagem(texto plano)
-$mail->AltBody = 'Conteudo da mensagem em texto plano';
-
-//Envio da Mensagem
-$enviado = $mail->Send();
-
-$mail->ClearAllRecipients();
-
-if ($enviado) {
-  echo "E-mail enviado com sucesso!";
-} else {
-  echo "Não foi possível enviar o e-mail.";
-  echo "Motivo do erro: " . $mail->ErrorInfo;
-}
-?>
-
 	<section class="site-section" id="section-contact">
 		<div class="container">
 			<div class="row">
@@ -692,7 +635,7 @@ if ($enviado) {
 				</div>
 
 				<div class="col-md-7 mb-5 mb-md-0">
-				<form action="index.php" name="form_contato" method="post" class="site-form">
+				<form action="enviar.php" name="form_contato" method="post" class="site-form">
 						<h3 class="mb-5">Formulário</h3>
 						<div class="form-group">
 							<input id="nome" type="text" class="form-control px-3 py-4" placeholder="Seu Nome">
