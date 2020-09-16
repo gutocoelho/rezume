@@ -628,47 +628,59 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	-->
 
 	<?php
-		$name = $_POST['nome'];
-		//pega os dados que foi digitado no ID name.
+//Import the PHPMailer class into the global namespace
+require("PHPMailer/PHPMailer.php");
+require("PHPMailer/SMTP.php");
+require("PHPMailer/Exception.php");
 
-		$email = $_POST['email'];
-		//pega os dados que foi digitado no ID email.
+$mail = new PHPMailer();
 
-		$subject = $_POST['msg'];
-		//pega os dados que foi digitado no ID sebject.
+// Define que a mensagem será SMTP
+$mail->IsSMTP();
 
-		$message = $_POST['message'];
-		//pega os dados que foi digitado no ID message.
-		$myEmail = "contato@mygeekbox.com.br";//é necessário informar um e-mail do próprio domínio
-		$headers = "From: $myEmail\r\n";
-		$headers .= "Reply-To: $email\r\n";
+// Host do servidor SMTP externo, como o SendGrid.
+$mail->Host = "smtp.umbler.com";
 
-		/*abaixo contém os dados que serão enviados para o email
-		cadastrado para receber o formulário*/
+// Autenticação | True
+$mail->SMTPAuth = true;
 
-		$corpo = "Formulário enviado\n";
-		$corpo .= "Nome: " . $name . "\n";
-		$corpo .= "Email: " . $email . "\n";
-		$corpo .= "Comentários: " . $message . "\n";
+// Usuário do servidor SMTP
+$mail->Username = 'contato@mygeekbox.com.br';
 
-		$email_to = 'augustoufc@hotmail.com';
-		//não esqueça de substituir este email pelo seu.
+// Senha da caixa postal utilizada
+$mail->Password = 'webnit26@A';
 
-		$status = mail($email_to, $subject, $corpo, $headers);
-		//enviando o email.
+$mail->From = "contato@mygeekbox.com.br";
+$mail->FromName = "Augusto Coelho ";
+$mail->AddAddress('contato@mygeekbox.com.br', 'Nome do Destinatário');
 
-		if ($status) {
-		echo "<script> alert('Formulário enviado com sucesso!'); </script>";
-		
-		//mensagem de form enviado com sucesso.
+// Define que o e-mail será enviado como HTML | True
+$mail->IsHTML(true);
 
-		} else {
-		echo "<script> alert('Falha ao enviar o Formulário.'); </script>";
-		
-		//mensagem de erro no envio. 
+// Charset da mensagem (opcional)
+$mail->CharSet = 'iso-8859-1';
 
-		}
-	?>
+// Assunto da mensagem
+$mail->Subject = "Mensagem Teste";
+
+// Conteúdo no corpo da mensagem
+$mail->Body = 'Conteudo da mensagem';
+
+// Conteúdo no corpo da mensagem(texto plano)
+$mail->AltBody = 'Conteudo da mensagem em texto plano';
+
+//Envio da Mensagem
+$enviado = $mail->Send();
+
+$mail->ClearAllRecipients();
+
+if ($enviado) {
+  echo "E-mail enviado com sucesso!";
+} else {
+  echo "Não foi possível enviar o e-mail.";
+  echo "Motivo do erro: " . $mail->ErrorInfo;
+}
+?>
 
 	<section class="site-section" id="section-contact">
 		<div class="container">
