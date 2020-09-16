@@ -1,79 +1,45 @@
 <?php
-//Variáveis
+date_default_timezone_set('America/Sao_Paulo');
 
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$telefone = $_POST['telefone'];
-//$opcoes = $_POST['escolhas'];
-$mensagem = $_POST['msg'];
-$data_envio = date('d/m/Y');
-$hora_envio = date('H:i:s');
+require_once('src/PHPMailer.php');
+require_once('src/SMTP.php');
+require_once('src/Exception.php');
 
-// Compo E-mail
-$arquivo = "
-<style type='text/css'>
-body {
-margin:0px;
-font-family:Verdane;
-font-size:12px;
-color: #666666;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+if((isset($_POST['email']) && !empty(trim($_POST['email']))) && (isset($_POST['mensagem']) && !empty(trim($_POST['mensagem'])))) {
+
+	$nome = !empty($_POST['nome']) ? $_POST['nome'] : 'Não informado';
+	$email = $_POST['email'];
+	$assunto = !empty($_POST['assunto']) ? utf8_decode($_POST['assunto']) : 'Não informado';
+	$mensagem = $_POST['msg'];
+	$data = date('d/m/Y H:i:s');
+
+	$mail = new PHPMailer();
+	$mail->isSMTP();
+	$mail->Host = 'smtp.mygeekbox.com.br';
+	$mail->SMTPAuth = true;
+	$mail->Username = 'contato@mygeekbox.com.br';
+	$mail->Password = 'Webnit26@';
+	$mail->Port = 587;
+
+	$mail->setFrom('augustoufc@hotmail.com');
+	$mail->addAddress('contato@mygeekbox.com.br');
+
+	$mail->isHTML(true);
+	$mail->Subject = $assunto;
+	$mail->Body = "Nome: {$nome}<br>
+				   Email: {$email}<br>
+				   Mensagem: {$mensagem}<br>
+				   Data/hora: {$data}";
+
+	if($mail->send()) {
+		echo 'Email enviado com sucesso.';
+	} else {
+		echo 'Email não enviado.';
+	}
+} else {
+	echo 'Não enviado: informar o email e a mensagem.';
 }
-a{
-color: #666666;
-text-decoration: none;
-}
-a:hover {
-color: #FF0000;
-text-decoration: none;
-}
-</style>
-  <html>
-      <table width='510' border='1' cellpadding='1' cellspacing='1' bgcolor='#CCCCCC'>
-          <tr>
-            <td>
-<tr>
-               <td width='500'>Nome:$nome</td>
-              </tr>
-              <tr>
-                <td width='320'>E-mail:<b>$email</b></td>
-   </tr>
-    <tr>
-                <td width='320'>Telefone:<b>$telefone</b></td>
-              </tr>
-   <tr>
-                <td width='320'>Opções:$escolhas</td>
-              </tr>
-              <tr>
-                <td width='320'>Mensagem:$nome</td>
-              </tr>
-          </td>
-        </tr>
-        <tr>
-          <td>Este e-mail foi enviado em <b>$data_envio</b> às <b>$hora_envio</b></td>
-        </tr>
-      </table>
-  </html>
-";
-
-//enviar
-
-  // emails para quem será enviado o formulário
-  $emailenviar = "augustoufc@hotmail.com";
-  $destino = $emailenviar;
-  $assunto = "Contato pelo Site";
-
-  // É necessário indicar que o formato do e-mail é html
-  $headers  = 'MIME-Version: 1.0' . "\r\n";
-      $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-      $headers .= 'From: $nome <$email>';
-  //$headers .= "Bcc: $EmailPadrao\r\n";
-
-  $enviaremail = mail($destino, $assunto, $arquivo, $headers);
-  if($enviaremail){
-  $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
-  echo " <meta http-equiv='refresh' content='10;URL=index.php'>";
-  } else {
-  $mgm = "ERRO AO ENVIAR E-MAIL!";
-  echo "";
-  }
-?>
