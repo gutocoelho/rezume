@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-if((isset($_POST['email']) && !empty(trim($_POST['email']))) && (isset($_POST['mensagem']) && !empty(trim($_POST['mensagem'])))) {
+if((isset($_POST['email']) && !empty(trim($_POST['email']))) && (isset($_POST['msg']) && !empty(trim($_POST['msg'])))) {
 
 	$nome = !empty($_POST['nome']) ? $_POST['nome'] : 'Não informado';
 	$email = $_POST['email'];
@@ -22,10 +22,10 @@ if((isset($_POST['email']) && !empty(trim($_POST['email']))) && (isset($_POST['m
 	$mail->Host = 'smtp.mygeekbox.com.br';
 	$mail->SMTPAuth = true;
 	$mail->Username = 'contato@mygeekbox.com.br';
-	$mail->Password = 'Webnit26@';
+	$mail->Password = 'webnit26@';
 	$mail->Port = 587;
 
-	$mail->setFrom('augustoufc@hotmail.com');
+	$mail->setFrom('contato@mygeekbox.com.br');
 	$mail->addAddress('contato@mygeekbox.com.br');
 
 	$mail->isHTML(true);
