@@ -682,7 +682,7 @@ if (isset($_POST['BTEnvia'])) {
 				</div>
 
 				<div class="col-md-7 mb-5 mb-md-0">
-				<form action="<? $PHP_SELF; ?>" name="form_contato" method="post" class="site-form">
+				<form method="POST" action="<? $PHP_SELF; ?>" class="site-form">
 						<h3 class="mb-5">Formulário</h3>
 						<div class="form-group">
 							<input id="nome" name="nome" type="text" class="form-control px-3 py-4" placeholder="Seu Nome">
