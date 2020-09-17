@@ -661,13 +661,7 @@ if (isset($_POST['BTEnvia'])) {
  $email_headers = implode ( "\n",array ( "From: $email_remetente", "Reply-To: $email_reply", "Return-Path: $email_remetente","MIME-Version: 1.0","X-Priority: 3","Content-Type: text/html; charset=UTF-8" ) );
  //====================================================
  
- //Enviando o email 
- //==================================================== 
- if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){ 
- echo "</b>E-Mail enviado com sucesso!</b>"; 
- } 
- else{ 
- echo "</b>Falha no envio do E-Mail!</b>"; } 
+ 
  //====================================================
 } 
 ?>
@@ -695,6 +689,16 @@ if (isset($_POST['BTEnvia'])) {
 						</div>
 						<div class="form-group mb-5">
 							<textarea id="msg" name="mensagem" class="form-control px-3 py-4"cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+							<?
+							//Enviando o email 
+							//==================================================== 
+							if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){ 
+								echo "</b>E-Mail enviado com sucesso!</b>"; 
+								} 
+								else{ 
+								echo "</b>Falha no envio do E-Mail!</b>"; } 
+
+							?>
 						</div>
 						<div class="form-group">
 							<input type="submit" name="BTEnvia" class="btn btn-primary  px-4 py-3" value="Enviar Mensagem">
