@@ -625,6 +625,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	-->
 
+	<?php
+if (isset($_POST['BTEnvia'])) {
+ 
+ //Variaveis de POST, Alterar somente se necessário 
+ //====================================================
+ $nome = $_POST['nome'];
+ $email = $_POST['email'];
+ $telefone = $_POST['telefone']; 
+ $mensagem = $_POST['mensagem'];
+ //====================================================
+ 
+ //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
+ //==================================================== 
+ $email_remetente = "contato@mygeekbox.com.br"; // deve ser uma conta de email do seu dominio 
+ //====================================================
+ 
+ //Configurações do email, ajustar conforme necessidade
+ //==================================================== 
+ $email_destinatario = "contato@mygeekbox.com.br"; // pode ser qualquer email que receberá as mensagens
+ $email_reply = "$email"; 
+ $email_assunto = "Contato mygeekbox.com.br"; // Este será o assunto da mensagem
+ //====================================================
+ 
+ //Monta o Corpo da Mensagem
+ //====================================================
+ $email_conteudo = "Nome = $nome \n"; 
+ $email_conteudo .= "Email = $email \n";
+ $email_conteudo .= "Telefone = $telefone \n"; 
+ $email_conteudo .= "Mensagem = $mensagem \n"; 
+ //====================================================
+ 
+ //Seta os Headers (Alterar somente caso necessario) 
+ //==================================================== 
+ $email_headers = implode ( "\n",array ( "From: $email_remetente", "Reply-To: $email_reply", "Return-Path: $email_remetente","MIME-Version: 1.0","X-Priority: 3","Content-Type: text/html; charset=UTF-8" ) );
+ //====================================================
+ 
+ //Enviando o email 
+ //==================================================== 
+ if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){ 
+ echo "</b>E-Mail enviado com sucesso!</b>"; 
+ } 
+ else{ 
+ echo "</b>Falha no envio do E-Mail!</b>"; } 
+ //====================================================
+} 
+?>
+
 	<section class="site-section" id="section-contact">
 		<div class="container">
 			<div class="row">
@@ -635,22 +682,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 
 				<div class="col-md-7 mb-5 mb-md-0">
-				<form action="enviar.php" name="form_contato" method="post" class="site-form">
+				<form action="<? $PHP_SELF; ?>" name="form_contato" method="post" class="site-form">
 						<h3 class="mb-5">Formulário</h3>
 						<div class="form-group">
-							<input id="nome" type="text" class="form-control px-3 py-4" placeholder="Seu Nome">
+							<input id="nome" name="nome" type="text" class="form-control px-3 py-4" placeholder="Seu Nome">
 						</div>
 						<div class="form-group">
-							<input id="email" type="email" class="form-control px-3 py-4" placeholder="Seu Email">
+							<input id="email" name="email" type="email" class="form-control px-3 py-4" placeholder="Seu Email">
 						</div>
 						<div class="form-group">
-							<input id="telefone" type="tel" class="form-control px-3 py-4" placeholder="Seu Telefone">
+							<input id="telefone" name="telefone" type="tel" class="form-control px-3 py-4" placeholder="Seu Telefone">
 						</div>
 						<div class="form-group mb-5">
-							<textarea id="msg" class="form-control px-3 py-4"cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+							<textarea id="msg" name="mensagem" class="form-control px-3 py-4"cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
 						</div>
 						<div class="form-group">
-							<input type="submit" class="btn btn-primary  px-4 py-3" value="Enviar Mensagem">
+							<input type="submit" name="BTEnvia" class="btn btn-primary  px-4 py-3" value="Enviar Mensagem">
 						</div>
 					</form>
 				</div>
