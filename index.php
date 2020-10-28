@@ -32,6 +32,9 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
 
+	<link rel="icon" href="https://img.icons8.com/nolan/24/synchronize.png" type="image/gif" sizes="16x16">
+
+
 
 </head>
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
