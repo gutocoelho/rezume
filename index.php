@@ -59,6 +59,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Inspirações</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-about">Sobre</a></li>					
 					<li class="nav-item"><a class="nav-link" href="#section-contact">Contato</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-download">Links Úteis</a></li>
 				</ul>
 			</div>
 		</div>
@@ -679,35 +680,7 @@ if (isset($_POST['BTEnvia'])) {
 				</div>
 
 				<div class="col-md-7 mb-5 mb-md-0">
-				<form method="POST" action="<? $PHP_SELF; ?>" class="site-form">
-						<h3 class="mb-5">Formulário</h3>
-						<div class="form-group">
-							<input id="nome" name="nome" type="text" class="form-control px-3 py-4" placeholder="Seu Nome">
-						</div>
-						<div class="form-group">
-							<input id="email" name="email" type="email" class="form-control px-3 py-4" placeholder="Seu Email">
-						</div>
-						<div class="form-group">
-							<input id="telefone" name="telefone" type="tel" class="form-control px-3 py-4" placeholder="Seu Telefone">
-						</div>
-						<div class="form-group mb-5">
-							<textarea id="msg" name="mensagem" class="form-control px-3 py-4"cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
-							<?
-							//Enviando o email 
-							//==================================================== 
-							if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){ 
-								echo "</b>E-Mail enviado com sucesso!</b>"; 
-								} 
-								else{ 
-								echo "</b>Falha no envio do E-Mail!</b>"; } 
-
-							?>
-						</div>
-						<div class="form-group">
-							<input type="submit" name="BTEnvia" class="btn btn-primary  px-4 py-3" value="Enviar Mensagem">
-						</div>
-					</form>
-				</div>
+				
 				<div class="col-md-5 pl-md-5">
 					<h3 class="mb-5">Meus Contatos</h3>
 					<ul class="site-contact-details">
@@ -720,6 +693,26 @@ if (isset($_POST['BTEnvia'])) {
 							+55 85 982063910
 						</li>
 					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="site-section" id="section-download">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>Links <strong>Úteis</strong></h2>
+					</div>
+				</div>
+
+				<div class="col-md-7 mb-5 mb-md-0">
+				
+				<div class="col-md-5 pl-md-5">
+					<p >
+						<a href="http://bit.ly/boxferramentasgratis" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Caixa de Ferramentas Grátis</a>
+					</p>
 				</div>
 			</div>
 		</div>
